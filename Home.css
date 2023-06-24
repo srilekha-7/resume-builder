@@ -1,0 +1,129 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-heading{
+    color: rgb(61, 53, 53);
+    font-family: "Bree-Serif";
+}
+.sub-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.button{
+    background-color: rgb(247, 234, 57);
+    color: rgb(8, 8, 108);
+    border: 2px solid rgb(8, 8, 108);
+    border-radius: 10px;
+    height: 50px;
+    width: 140px;
+    font-family: "Bree-Serif";
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1px;
+}
+
+.editor-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.categories{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    border-bottom: 1px solid rgb(61, 53, 53);
+}
+.category-heading{
+    color: rgb(61, 53, 53);
+    font-family: "Bree-Serif";
+    cursor: pointer;
+}
+.category-heading:hover{
+    
+    border-bottom: 3px solid rgb(247, 234, 57);
+   
+    
+}
+input{
+    height: 40px;
+    
+    margin: 1%;
+    border: 1px solid #cccc;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+input:focus{
+    border: 2px solid rgb(247, 234, 57);
+}
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: rgb(61, 53, 53);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1%;
+
+}
+.sub-card-container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 1%;
+    
+}
+.add-another{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+   
+    align-items: center;
+    margin: 1%;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(247, 234, 57);
+    color: rgb(8, 8, 108);
+    font-family: "bree-serif";
+}
+.another{
+    display: flex;
+}
+
+.resume-container{
+    margin: 10%;
+}
+.resume-name{
+    font-size: 45px;
+    font-family: "Bree-Serif";
+}
+.resume-role{
+    
+    font-family: "Bree-Serif";
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+.columns-heading{
+    font-size: 10px;
+    font-family: "Bree-Serif";
+}
+.resume-content-container{
+    display: flex;
+    justify-content: space-between;
+}
+.hr-line{
+    border-bottom: 2px solid rgb(61, 53, 53);
+}
+.resume-category-heading{
+    font-family: "Bree-Serif";
+    font-size: 17px;
+}
